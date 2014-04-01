@@ -15,9 +15,16 @@
             "homepage": "https://github.com/knplabs/KnpGaufretteBundle/contributors"
         }
     ],
+    "repositories": [
+
+        {
+            "type": "vcs",
+            "url": "git@github.com:thekandor/Gaufrette.git"
+        }
+    ],
     "require":      {
         "symfony/framework-bundle": "2.*",
-        "knplabs/gaufrette":        "0.2.*@dev"
+        "knplabs/gaufrette":        "dev-custom-headers as 0.2.*@dev"
     },
     "require-dev": {
         "symfony/yaml": "2.*",
@@ -31,7 +38,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.2.x-dev"
+            "dev-master": "dev-custom-headers as 0.2.x-dev"
         }
     },
     "config": {
