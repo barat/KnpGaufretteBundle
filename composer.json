@@ -19,7 +19,7 @@
 
         {
             "type": "vcs",
-            "url": "https://github.com/khasinski/Gaufrette.git"
+            "url": "https://github.com/barat/Gaufrette.git"
         }
     ],
     "require":      {
